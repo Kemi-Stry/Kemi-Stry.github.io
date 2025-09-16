@@ -1,0 +1,64 @@
+@font-face {
+    font-family: FiraMono;
+    src: url("FiraMonoNerdFont-Regular.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+    font-family: FiraMono;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.terminal {
+    user-select: none;
+    width: 50%;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.titlebar
+{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 0 10px;
+}
+
+header
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content
+{
+    background-color: #2d2d2d;
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+
+#red
+{
+    color: #f4625e;
+    margin: 0;
+}
+
+#green
+{
+    color: #38ca44;
+    margin: 0;
+}
+
+#yellow
+{
+    color: #f9bf3d;
+    margin: 0;
+}
